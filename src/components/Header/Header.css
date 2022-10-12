@@ -1,0 +1,105 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 40px;
+    padding: 8px 0;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header--currentComponentName {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #1B212D;
+}
+
+.header--menu {
+    width: 215px;
+    height: 50px;
+    display: flex;
+    background-color: #fafafa;
+    border-radius: 100px;
+    align-items: center;
+    padding: 7px 6px;
+    position: relative;
+    
+}
+
+.header--menuImage {
+    border-radius: 50%;
+}
+
+.header--menuButton {
+    height: 100%;
+    width: 100%;
+    background-color: #fafafa;
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header--buttonText {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 600;
+}
+
+.header--buttonImage {
+    transition: .5s ease;
+}
+
+.header--buttonImage.open {
+    transform: rotate(180deg);   
+}
+
+.header--dropdown {
+    position: absolute;
+    top: 55px;
+    background-color: #fafafa;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: .5s ease;
+    
+}
+
+.header--dropdown.collapsed {
+    height: 0;
+}
+
+.header--dropdownList {
+    list-style-type: none;
+    
+    
+}
+.header--dropdownListItem {
+    
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px 20px;
+    
+}
+
+.banner {
+    height: 100px;
+    width: 100%;
+    background-color: salmon;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    height: 100%;
+}
+
+.student--img {
+    width: 30%;
+    height: 36px;
+}
+
